@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# distict files for each person
+.firebase
+build
+src\firebase_config.js
+.firebaserc
+firebase.json
