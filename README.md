@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# About App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple todo app created using react for front-end and logic management and firebase as database for storage.
+
+Below is a demo showing the functionality of the app.
+
+![alt text](images/projectGIF.gif)
 
 ## Available Scripts
 

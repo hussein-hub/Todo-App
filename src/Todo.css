@@ -1,6 +1,6 @@
 .todoItem {
-    width: 600px;
-    max-height: 90px;
+    max-height: 500px;
+    width: 85%;
     margin-bottom: 20px;
 }
 .ow {
@@ -10,7 +10,7 @@
 }
 
 .todo-card {
-    background: linear-gradient( 90deg, rgba(20, 159, 255, 1) 0%, rgba(17, 122, 255, 1) 100% );
+    background: linear-gradient( 45deg, rgba(20, 159, 255, 1) 0%, rgba(17, 122, 255, 1) 100% );
     border-radius: 10px;
 }
 
@@ -26,6 +26,21 @@
 }
 
 .done-button:hover {
-    background: linear-gradient( 90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100% );
+    background: linear-gradient( 45deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100% );
     transition: background 1s ease; 
+}
+
+@media only screen and (max-width: 768px) {
+    .done-remove-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .done-remove-buttons {
+        margin-top: 15px;
+    }
+    .done-button {
+        background: rgb(10, 92, 199);
+    }
 }

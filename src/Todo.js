@@ -22,16 +22,16 @@ function TodoListItem({ todo, inProgress, id, timeStamp }) {
                                 flexDirection: 'row',
                                 flexWrap: 'wrap',
                                 justifyContent: 'space-between'}}>
-                    <div>
+                    <div style={{maxWidth: '450px'}}>
                         <Typography style={{ textDecoration: inProgress ? 'none' : 'line-through', fontWeight: 'bold', color: 'white', fontSize: '16px', fontFamily: "'JetBrains Mono', monospace"}} className="ow" variant="h5" component="h2">
                         {todo}
                         </Typography>
-                        <Typography style={{color: 'white', fontSize: '14px', fontFamily: "'JetBrains Mono', monospace"}} variant="body2" component="p">
+                        <Typography style={{color: 'white', fontSize: '14px', fontFamily: "'JetBrains Mono', monospace", marginTop: '12px'}} variant="body2" component="p">
                             {inProgress ? "In Progress" : "Completed"}
                         <br />
                         </Typography>
                     </div>
-                    <div>
+                    <div className="done-remove-buttons">
                         <button onClick={toggleInProgress} style={{fontSize: '14px', padding: '8px', borderRadius: '6px', marginRight: '12px'}} type="submit" class="done-button">{inProgress ? "Done" : "Undone"}</button>
                         <button onClick={deleteTodo} style={{fontSize: '14px', padding: '8px 14px', borderRadius: '6px'}} type="submit" class="done-button">X</button>
                     </div>
