@@ -4,7 +4,8 @@ This is a simple todo app created using react for front-end and logic management
 
 Below is a demo showing the functionality of the app.
 
-![alt text](images/projectGIF.gif)
+<!-- ![alt text](images/projectGIF.gif) -->
+<img src="images/projectGIF.gif" width="400" height="750">
 
 ## Available Scripts
 
