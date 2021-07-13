@@ -25,6 +25,6 @@ yarn-error.log*
 # distict files for each person
 .firebase
 build
-src\firebase_config.js
+src/firebase_config.js
 .firebaserc
 firebase.json
